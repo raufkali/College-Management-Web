@@ -1,0 +1,23 @@
+{
+  "name": "gdc-backend",
+  "version": "1.0.0",
+  "description": "Backend API engine for Government Degree College Gulabad Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "multer": "^2.2.0",
+    "pdf-parse": "^2.4.5",
+    "pdfjs-dist": "^6.1.200",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
